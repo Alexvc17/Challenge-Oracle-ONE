@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+	<html lang="es">
+
+		<head>
+			<meta charset="UTF-8">
+			<title>Encriptador-g5</title>
+			<link rel="stylesheet" href="style.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+			
+		</head>
+
+		<body class="fondo">
+			<header>
+				<img src="imagenes/Logo.png" class="logo" alt="logo alura">	
+
+			</header>
+			<main>
+				
+				<section class="seccion1">
+					
+					
+					<textarea cols="35" row="10" id="texto" class="mensaje-entrada" placeholder="Ingresa el mensaje" required></textarea>
+
+					<h6 class="advertencia"><span class="circulo"></span>Solo letras minúsculas y sin acento</h6>
+
+					<div class="botones">
+						
+						<button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+						<button class="desencriptar" onclick="btnDesencriptar()" >Desencriptar</button>
+
+					</div>
+					
+
+				</section>
+
+				<section class="seccion2">
+					
+					<textarea cols="30" row="10" class="mensaje-salida"  required></textarea>
+					<div>
+					<button class="copiar" onclick="btnCopiar()">Copiar</button>	
+					</div>
+					
+
+					
+
+				</section>
+
+
+
+			</main>		
+			<script src="script.js"></script>
+		</body>
+
+
+		<footer>
+			
+		</footer>
+
+
+
+
+
+
+
+
+
+	</html>
+
+
+
+
